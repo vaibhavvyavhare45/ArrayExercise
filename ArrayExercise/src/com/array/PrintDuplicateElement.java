@@ -2,7 +2,7 @@ package com.array;
 
 
 
-import java.util.Arrays;
+
 
 public class PrintDuplicateElement {
 	public  static int printDuplicate(int a[]) {
