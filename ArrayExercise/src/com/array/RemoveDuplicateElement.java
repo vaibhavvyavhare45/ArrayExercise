@@ -1,10 +1,12 @@
 package com.array;
 
-
+import java.util.Arrays;
 
 public class RemoveDuplicateElement {
 	
+	
   public static void removeDuplicate(int a[]) {
+	  
 	  for(int i=0;i<a.length;i++){
 			System.out.print(a[i]+"  ");
 		}
@@ -25,20 +27,22 @@ public class RemoveDuplicateElement {
 			
 			System.out.print(" "+a[i]);
 		
-		
 	  }
 	  System.out.println();
-	  
-	   
+	     
   }
+  
+  
 	    
 	    public static void main(String[] args) {
 			
+	    	
 	    	
 		int a[]= {7,8,12,14,7,89,7,1};
 		
 	       removeDuplicate(a);
 	       RemoveGivenElement.removeElement(a);
+	      
 	        
 	}
 }
